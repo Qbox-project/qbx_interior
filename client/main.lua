@@ -47,7 +47,7 @@ local function Create(table, spawn)
 	local house = CreateObject(table.model, spawn.x, spawn.y, spawn.z, false, false, false)
     FreezeEntityPosition(house, true)
     objects[#objects+1] = house
-	TeleportToInterior(spawn.x + table.TPOffset.x, spawn.y + table.TPOffset.y, spawn.z + table.TPOffset.z, POIOffsets.exit.h)
+	TeleportToInterior(spawn.x + table.TPOffset.x, math.abs(spawn.y + table.TPOffset.y), spawn.z + table.TPOffset.z, POIOffsets.exit.h)
     return { objects, POIOffsets }
 end
 
