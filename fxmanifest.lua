@@ -6,6 +6,9 @@ version '1.1.0'
 
 this_is_a_map 'yes'
 
+shared_script 'config.lua'
+
+
 client_scripts {
 	'client/main.lua',
 	'client/optional.lua'
