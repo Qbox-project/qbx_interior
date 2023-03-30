@@ -1,4 +1,5 @@
-local QBCore = exports['qb-core']:GetCoreObject()
+local QBCore = exports['qbx-core']:GetCoreObject()
+
 local Apartments = {
 	[`furnitured_midapart`] = {
 		exit = vector4(1.46, -10.33, 1.06, 0.39),
