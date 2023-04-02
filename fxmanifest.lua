@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'QB-Interior'
+description 'QBX-Interior'
 version '1.1.0'
 
 this_is_a_map 'yes'

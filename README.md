@@ -1,4 +1,4 @@
-# qb-interior
+# qbx-interior
 
 **Shells provided by K4MB1**
 
