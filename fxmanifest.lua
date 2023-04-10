@@ -17,7 +17,7 @@ server_scripts {
 }
 
 files {
-	'starter_shells_k4mb1.ytyp'
+	'stream/starter_shells_k4mb1.ytyp'
 }
 
 -- Default (included)
