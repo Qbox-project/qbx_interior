@@ -12,7 +12,6 @@ this_is_a_map 'yes'
 
 shared_scripts {
 	'@ox_lib/init.lua',
-	'@qbx_core/modules/utils.lua' -- Not sure what this could be used for, but I'm not going to touch it. - Viper
 }
 
 client_scripts { 'client/main.lua', 'client/optional.lua' }
